@@ -6,9 +6,18 @@ import Link from "next/link";
 import { useState } from "react";
 import Image from "next/image";
 import { Icons } from "@/components/Icons";
-import { SiTypescript, SiPostgresql, SiPrisma, SiNestjs } from "react-icons/si";
+import {
+  SiTypescript,
+  SiPostgresql,
+  SiPrisma,
+  SiNestjs,
+  SiMongodb,
+  SiMongoose,
+  SiExpress,
+} from "react-icons/si";
 import { RiSupabaseFill } from "react-icons/ri";
-import { FaSwift } from "react-icons/fa6";
+import { FaSwift, FaGolang } from "react-icons/fa6";
+import { IoLogoJavascript } from "react-icons/io5";
 
 export const HoverEffect = ({
   items,
@@ -64,6 +73,10 @@ export const HoverEffect = ({
               {(() => {
                 if (item.title === "Kreate") {
                   return <CardTechKreateSection />;
+                } else if (item.title === "YelpCamp") {
+                  return <CardTechYelpCampSection />;
+                } else if (item.title === "GoRestaurantApp") {
+                  return <CardTechGoRestaurantAppSection />;
                 } else {
                   return <CardTechSection />;
                 }
@@ -101,6 +114,23 @@ export const CardTechSection = () => {
   return (
     <div className="mt-8 relative flex gap-2">
       <FaSwift size={25} className="text-orange-500" />
+    </div>
+  );
+};
+export const CardTechGoRestaurantAppSection = () => {
+  return (
+    <div className="mt-8 relative flex gap-2">
+      <FaGolang size={25} className="text-blue-500" />
+    </div>
+  );
+};
+export const CardTechYelpCampSection = () => {
+  return (
+    <div className="mt-8 relative flex gap-2">
+      <SiExpress size={25} />
+      <IoLogoJavascript size={25} className="text-yellow-500" />
+      <SiMongodb size={25} className="text-green" />
+      <SiMongoose size={25} className="text-red-700" />
     </div>
   );
 };

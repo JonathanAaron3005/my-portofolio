@@ -79,7 +79,7 @@ export const BentoGridItem = ({
               <IconCloud iconSlugs={slugs} />
             </div>
           )}
-          <div className="w-full h-full absolute">
+          <div className="w-full absolute">
             {img && (
               <img
                 src={img}

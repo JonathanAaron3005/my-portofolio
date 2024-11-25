@@ -1,11 +1,5 @@
 import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./ui/MagicButton";
-import { Spotlight } from "./ui/Spotlight";
-import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-import Image from "next/image";
-import Link from "next/link";
-import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
-import { DATA } from "@/data/resume";
 import Meteors from "./ui/meteors";
 import Particles from "./ui/particles";
 
