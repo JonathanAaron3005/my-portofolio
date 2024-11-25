@@ -4,7 +4,7 @@ import { Projects } from "@/components/Projects";
 
 export default function Home() {
   return (
-    <main className="w-full relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto">
+    <main className="w-full relative bg-black-100 flex justify-center items-center flex-col  mx-auto">
       <div className="w-full flex flex-col justify-center">
         <Hero />
         <Skills />
