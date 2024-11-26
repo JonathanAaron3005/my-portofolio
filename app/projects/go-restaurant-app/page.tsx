@@ -78,7 +78,10 @@ const GoRestaurantApp = () => {
       </div>
 
       <div className="mt-8 mb-16 flex justify-center">
-        <Link href="https://github.com/JonathanAaron3005/Yelp-Camp" passHref>
+        <Link
+          href="https://github.com/JonathanAaron3005/GO-restaurant-app"
+          passHref
+        >
           <button className="bg-gray-800 text-white py-3 px-6 rounded-full flex items-center hover:bg-gray-700 transition-all duration-200">
             <FaGithub className="mr-2" size={24} /> View on GitHub
           </button>
