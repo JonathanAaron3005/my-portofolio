@@ -18,6 +18,7 @@ import {
 import { RiSupabaseFill } from "react-icons/ri";
 import { FaSwift, FaGolang } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io5";
+import { Span } from "next/dist/trace";
 
 export const HoverEffect = ({
   items,
@@ -155,13 +156,17 @@ export const CardBtn = ({ github, link }: { github: string; link: string }) => {
       >
         My Journey {">"}
       </Link>
-      {github.length !== 0 && (
+      {github.length !== 0 ? (
         <Link
           href={github}
           className="text-center shadow-[inset_0_0_0_1px_#616467] text-neutral-200 text-xs px-3 py-3 rounded-full bg-transparent hover:bg-[#616467] hover:text-white transition duration-200"
         >
           <Icons.github className="size-4" />
         </Link>
+      ) : (
+        <span className="text-center shadow-[inset_0_0_0_1px_#616467] text-neutral-200 text-xs px-3 py-3 rounded-full bg-transparen">
+          ongoing project
+        </span>
       )}
     </div>
   );
