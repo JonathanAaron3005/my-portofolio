@@ -178,20 +178,6 @@ export const DATA = {
       github: "",
     },
     {
-      image: "/express logo.webp",
-      title: "YelpCamp",
-      description: "A Web Application for Finding and Reviewing Campgrounds",
-      link: "/projects/yelp-camp",
-      github: "https://github.com/JonathanAaron3005/Yelp-Camp",
-    },
-    {
-      image: "/golang.png",
-      title: "GoRestaurantApp",
-      description: "Scalable Backend for Restaurant Management Built with Go",
-      link: "/projects/go-restaurant-app",
-      github: "https://github.com/JonathanAaron3005/GO-restaurant-app",
-    },
-    {
       image: "/catlorie.webp",
       title: "Catlorie",
       description:
