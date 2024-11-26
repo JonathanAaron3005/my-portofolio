@@ -178,6 +178,14 @@ export const DATA = {
       github: "",
     },
     {
+      image: "/catlorie.webp",
+      title: "Catlorie",
+      description:
+        "Enhancing User Motivation in Calorie Tracking Through Gamification",
+      link: "https://medium.com/@jonathanaaron3005/catlorie-enhancing-user-motivation-in-calorie-tracking-through-gamification-f04792e9b2d1",
+      github: "https://github.com/JonathanAaron3005/Mini2_Catlorie",
+    },
+    {
       image: "/express logo.webp",
       title: "YelpCamp",
       description: "A Web Application for Finding and Reviewing Campgrounds",
@@ -190,14 +198,6 @@ export const DATA = {
       description: "Scalable Backend for Restaurant Management Built with Go",
       link: "/projects/go-restaurant-app",
       github: "https://github.com/JonathanAaron3005/GO-restaurant-app",
-    },
-    {
-      image: "/catlorie.webp",
-      title: "Catlorie",
-      description:
-        "Enhancing User Motivation in Calorie Tracking Through Gamification",
-      link: "https://medium.com/@jonathanaaron3005/catlorie-enhancing-user-motivation-in-calorie-tracking-through-gamification-f04792e9b2d1",
-      github: "https://github.com/JonathanAaron3005/Mini2_Catlorie",
     },
     {
       image: "/breatheee.webp",
